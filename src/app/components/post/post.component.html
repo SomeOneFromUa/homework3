@@ -1,6 +1,10 @@
-<div>
-  <h3>{{post.userId}}</h3>
-  <h3>{{post.title}}</h3>
-  <p>{{post.body}}</p>
-<button routerLink="/comments/{{post.id}}">browse comments</button>
-</div>
+<mat-card class="post-card">
+
+  <mat-card-title><h3>{{post.title}}</h3></mat-card-title>
+  <mat-card-content>{{post.body}}</mat-card-content>
+<button mat-button routerLink="/comments/{{post.id}}">browse comments</button>
+  <p>
+    <span matBadge="{{post.userId}}" matBadgeOverlap="false"> userID </span>
+  </p>
+
+</mat-card>

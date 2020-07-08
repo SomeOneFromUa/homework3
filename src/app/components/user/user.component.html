@@ -1,6 +1,6 @@
-<div>
+<mat-card class="user-card">
   <h3>{{user.username}}</h3>
-  <h4>{{user.name}}</h4>
-  <p>{{user.email}}</p>
-  <button routerLink="/posts/{{user.id}}">browse posts</button>
-</div>
+  <mat-card-subtitle>{{user.name}}</mat-card-subtitle>
+  <mat-card-subtitle>{{user.email}}</mat-card-subtitle>
+  <button mat-button color="primary" routerLink="/posts/{{user.id}}">browse posts</button>
+</mat-card>

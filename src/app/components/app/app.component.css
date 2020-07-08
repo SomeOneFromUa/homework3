@@ -1,0 +1,17 @@
+.header {
+  height: 60px;
+  border-bottom: solid 1px cornflowerblue ;
+  background-color: blueviolet;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+
+}
+.menu>div {
+  margin: 10px;
+}

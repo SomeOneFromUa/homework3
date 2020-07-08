@@ -1,0 +1,5 @@
+.user-list {
+  display: flex;
+  padding: 0px 40px;
+  flex-wrap: wrap;
+}
